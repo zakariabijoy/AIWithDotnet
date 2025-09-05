@@ -135,8 +135,6 @@ void GitHubModelsTextAndModel()
         new SystemChatMessage(systemMessage),
         new UserChatMessage(new List<ChatMessageContentPart>
         {
-            //ChatMessageContentPart.CreateImagePart(new Uri(imageUrl)),
-            //ChatMessageContentPart.CreateImagePart(new Uri(imageUrl2))
             ChatMessageContentPart.CreateImagePart(new BinaryData(File.ReadAllBytes(imageUrl)),"image/jpg"),
             ChatMessageContentPart.CreateImagePart(new BinaryData(File.ReadAllBytes(imageUrl2)),"image/jpg"),
         })
