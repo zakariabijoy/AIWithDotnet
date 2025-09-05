@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LLMModlesWithDotnet", "LLMM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FancyMCP", "FancyMCP\FancyMCP.csproj", "{2C352FA8-A193-4569-8FA2-B144D438F894}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SampleAPIs", "SampleAPIs", "{D690C603-41B8-A5B4-0403-2A84ADED5F09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWebAPI", "SampleAPIs\SampleWebAPI\SampleWebAPI.csproj", "{C8D70AE8-2376-401F-9668-A5C4438C0D2A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,9 +45,24 @@ Global
 		{2C352FA8-A193-4569-8FA2-B144D438F894}.Release|x64.Build.0 = Release|Any CPU
 		{2C352FA8-A193-4569-8FA2-B144D438F894}.Release|x86.ActiveCfg = Release|Any CPU
 		{2C352FA8-A193-4569-8FA2-B144D438F894}.Release|x86.Build.0 = Release|Any CPU
+		{C8D70AE8-2376-401F-9668-A5C4438C0D2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8D70AE8-2376-401F-9668-A5C4438C0D2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8D70AE8-2376-401F-9668-A5C4438C0D2A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C8D70AE8-2376-401F-9668-A5C4438C0D2A}.Debug|x64.Build.0 = Debug|Any CPU
+		{C8D70AE8-2376-401F-9668-A5C4438C0D2A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C8D70AE8-2376-401F-9668-A5C4438C0D2A}.Debug|x86.Build.0 = Debug|Any CPU
+		{C8D70AE8-2376-401F-9668-A5C4438C0D2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8D70AE8-2376-401F-9668-A5C4438C0D2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8D70AE8-2376-401F-9668-A5C4438C0D2A}.Release|x64.ActiveCfg = Release|Any CPU
+		{C8D70AE8-2376-401F-9668-A5C4438C0D2A}.Release|x64.Build.0 = Release|Any CPU
+		{C8D70AE8-2376-401F-9668-A5C4438C0D2A}.Release|x86.ActiveCfg = Release|Any CPU
+		{C8D70AE8-2376-401F-9668-A5C4438C0D2A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C8D70AE8-2376-401F-9668-A5C4438C0D2A} = {D690C603-41B8-A5B4-0403-2A84ADED5F09}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EB99407B-37F0-4D3C-8E1A-68F2B1E7B579}
